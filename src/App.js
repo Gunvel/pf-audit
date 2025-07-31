@@ -1,5 +1,9 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
+import CssBaseline from '@mui/material/CssBaseline';
+import Container from '@mui/material/Container';
+import logo from './logo.svg';
+import MainComponent from './components/MainComponent';
 
 function App() {
   const [userData, setUserData] = useState(null);
@@ -26,19 +30,15 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React + Telegram Web App</h1>
-        {userData ? (
-          <div>
-            <p>Пользователь: {userData.user?.first_name}</p>
-            <button onClick={sendDataToTelegram}>Отправить данные</button>
-          </div>
+    <React.Fragment>
+      <CssBaseline />
+      {userData ? (
+          <MainComponent/>
         ) : (
           <p>Загрузка...</p>
         )}
-      </header>
-    </div>
+    </React.Fragment>
+    
   );
 }
 
