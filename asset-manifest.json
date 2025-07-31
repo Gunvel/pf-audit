@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pf-audit/static/css/main.f855e6bc.css",
+    "main.js": "/pf-audit/static/js/main.49e2e0ed.js",
+    "static/js/453.b90a840e.chunk.js": "/pf-audit/static/js/453.b90a840e.chunk.js",
+    "index.html": "/pf-audit/index.html",
+    "main.f855e6bc.css.map": "/pf-audit/static/css/main.f855e6bc.css.map",
+    "main.49e2e0ed.js.map": "/pf-audit/static/js/main.49e2e0ed.js.map",
+    "453.b90a840e.chunk.js.map": "/pf-audit/static/js/453.b90a840e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.49e2e0ed.js"
+  ]
+}
